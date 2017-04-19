@@ -56,7 +56,7 @@ export default class extends  Base{
       //var type = allParams.type;//1为知识文章，2为保险文章
       //self.getMin("li_article",{item:1}).then(count=>{
 
-        self.listAction("li_article",5).then(cdata=>{
+        self.listAction("li_article",8).then(cdata=>{
      
           return self.success({data:cdata.data});
         })

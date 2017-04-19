@@ -14,7 +14,7 @@ export default class extends Base {
   async listpageAction(table_name,obj,nums){
     let model = this.model(table_name);
 
-    let data = await model.where(obj).page(this.get('page'), 7).order({ 
+    let data = await model.where(obj).page(this.get('page'), 9).order({ 
       createtime : 'ASC',
       dig:'DESC'
     }).countSelect();

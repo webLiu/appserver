@@ -9,6 +9,7 @@
     "watch": "npm run watch-compile"
   },
   "dependencies": {
+    "async": "^2.3.0",
     "babel-runtime": "6.x.x",
     "source-map-support": "0.4.0",
     "super-alidayu": "^2.0.0",

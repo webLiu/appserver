@@ -505,7 +505,7 @@ export default class extends Base {
 
                 let imgname = uploadPath + newpath.replace(/\//g, "") + '.png';
 
-                let mysqlpath = 'http://192.168.1.103:8360/static/upload/pics/'+ uid +'/'+ newpath + '/' + newpath.replace(/\//g, "") + '.png'
+                let mysqlpath = 'http://127.0.0.1:8360/static/upload/pics/'+ uid +'/'+ newpath + '/' + newpath.replace(/\//g, "") + '.png'
 
                 var dataBuffer = new Buffer(base64, 'base64');
                 fs.writeFile(imgname, dataBuffer, (err) => {
