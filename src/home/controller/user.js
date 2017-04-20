@@ -143,10 +143,10 @@ async registerAction() {
                     });
                      
                     const options = {
-                      sms_free_sign_name: '网站测试注册用户',
+                      sms_free_sign_name: '乙宝',
                       sms_param: JSON.stringify({"code": code}),
-                      rec_num: '13138873797',
-                      sms_template_code: 'SMS_57125031',
+                      rec_num: allParams.tel,
+                      sms_template_code: 'SMS_62640075',
                     };
                      
                     // 发送短信，promise方式调用 
@@ -186,10 +186,10 @@ async registerAction() {
                         });
                          
                         const options = {
-                          sms_free_sign_name: '网站测试注册用户',
+                          sms_free_sign_name: '乙宝',
                           sms_param: JSON.stringify({"code": code}),
-                          rec_num: '13138873797',
-                          sms_template_code: 'SMS_57125031',
+                          rec_num: allParams.tel,
+                          sms_template_code: 'SMS_62640075',
                         };
                          
                         // 发送短信，promise方式调用 
